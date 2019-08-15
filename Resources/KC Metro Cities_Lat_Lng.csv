@@ -1,29 +1,29 @@
-﻿Cities,Latitude,Longitude
-"Avondale, MO",39.1542,-94.5469
-"Basehor, KS",39.1417,-94.9386
-"Belton, MO",38.812,-94.5319
-"Blue Springs, MO",39.017,-94.2816
-"Excelsior Springs, MO",39.3392,-94.2261
-"Gardner, KS",38.8108,-94.9272
-"Gladstone, MO",39.2039,-94.5547
-"Grain Valley, MO",39.015,-94.1986
-"Grandview, MO",38.8858,-94.533
-"Independence, MO",39.0911,-94.4155
-"Kansas City, KS",39.1155,-94.6268
-"Kansas City, MO",39.0997,-94.5786
-"Lansing, KS",39.2486,-94.9002
-"Leavenworth, KS",39.3111,-94.9225
-"Leawood, KS",38.9667,-94.6169
-"Lee's Summit, MO",38.9108,-94.3822
-"Lenexa, KS",38.9536,-94.7336
-"Liberty, MO",39.2461,-94.4191
-"Merriam, KS",39.0236,-94.6936
-"Mission Hills, KS",39.0178,-94.6169
-"Mission, KS",39.0278,-94.6558
-"North Kansas City, MO",39.1429,-94.573
-"Olathe, KS",38.8814,-94.8191
-"Osborn, MO",39.7472,-94.3552
-"Overland Park, KS",38.9822,-94.6708
-"Prairie Village, KS",38.9917,-94.6336
-"Raytown, MO",39.0086,-94.4636
-"Shawnee, KS",39.0228,-94.7152
+﻿Cities,State,Latitude,Longitude
+Avondale,Missouri,39.1542,-94.5469
+Basehor,Kansas,39.1417,-94.9386
+Belton,Missouri,38.812,-94.5319
+Blue Springs,Missouri,39.017,-94.2816
+Excelsior Springs,Missouri,39.3392,-94.2261
+Gardner,Kansas,38.8108,-94.9272
+Gladstone,Missouri,39.2039,-94.5547
+Grain Valley,Missouri,39.015,-94.1986
+Grandview,Missouri,38.8858,-94.533
+Independence,Missouri,39.0911,-94.4155
+Kansas City,Kansas,39.1155,-94.6268
+Kansas City,Missouri,39.0997,-94.5786
+Lansing,Kansas,39.2486,-94.9002
+Leavenworth,Kansas,39.3111,-94.9225
+Leawood,Kansas,38.9667,-94.6169
+Lee's Summit,Missouri,38.9108,-94.3822
+Lenexa,Kansas,38.9536,-94.7336
+Liberty,Missouri,39.2461,-94.4191
+Merriam,Ks,39.0236,-94.6936
+Mission Hills,Kansas,39.0178,-94.6169
+Mission,Kansas,39.0278,-94.6558
+North Kansas City,Missouri,39.1429,-94.573
+Olathe,Kansas,38.8814,-94.8191
+Osborn,Missouri,39.7472,-94.3552
+Overland Park,Kansas,38.9822,-94.6708
+Prairie Village,Kansas,38.9917,-94.6336
+Raytown,Missouri,39.0086,-94.4636
+Shawnee,Kansas,39.0228,-94.7152
