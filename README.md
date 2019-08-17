@@ -8,3 +8,5 @@ We will use dropdowns to give you options about what you are looking for in a ne
 Some of the questions:  Do you eat out a lot?  Do you cook at home?  Do you go to the gym?  Based on these questions, we can show restaurants vs. grocery stores.  Parks vs. gyms...
 
 We will put together some kind of score that will be graphed or put into a gauge comparing your location with a static ‘ideal’ location.
+
+https://docs.google.com/document/d/1ykPkYwdGAgr4WFbjKI5_ikAi79q3ZC5bYufMI0o4um8/edit
