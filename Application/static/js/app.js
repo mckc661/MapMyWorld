@@ -1,24 +1,24 @@
-function buildMetadata(sample) {
+// function buildMetadata(sample) {
 
   // @TODO: Complete the following function that builds the metadata panel
 
   // Use `d3.json` to fetch the metadata for a sample
 
-    var MetaData = `/metadata/${sample}`;
-    d3.json(MetaData).then(function(response) {
-// Use d3 to select the panel with id of `#sample-metadata`
-      var panelData = d3.select("#sample-metadata");
+//     var MetaData = `/metadata/${sample}`;
+//     d3.json(MetaData).then(function(response) {
+// // Use d3 to select the panel with id of `#sample-metadata`
+//       var panelData = d3.select("#sample-metadata");
 
-    // Use `.html("") to clear any existing metadata
-      panelData.html("");
+//     // Use `.html("") to clear any existing metadata
+//       panelData.html("");
 
-      var data = Object.entries(response);
-      data.forEach(function(item) {
-        panelData.append("div").text(item);
-      });
+//       var data = Object.entries(response);
+//       data.forEach(function(item) {
+//         panelData.append("div").text(item);
+//       });
 
 
-    })
+//     })
  
 
 
@@ -31,11 +31,11 @@ function buildMetadata(sample) {
 }
 
 
-function buildCharts(sample) {
+function buildCharts(City) {
 
-var sampleData = `/samples/${sample}`;
-console.log(sampleData);
-d3.json(`/samples/${sample}`).then(function(response) {
+var placesData = `/chinese/${City}`;
+console.log(placesData);
+d3.json(`/samples/${City}`).then(function(response) {
   console.log(response.otu_ids.otu_ids);
   var topOtuIDs = response.otu_ids.slice(0,10);
   var topOtuLabels = response.otu_labels.slice(0,10);
@@ -89,12 +89,12 @@ function init() {
   var selector = d3.select("#selDataset");
 
   // Use the list of sample names to populate the select options
-  d3.json("/names").then((sampleNames) => {
-    sampleNames.forEach((sample) => {
+  d3.json("/chinese").then((highestRating) => {
+    highestRating.forEach((City) => {
       selector
         .append("option")
-        .text(sample)
-        .property("value", sample);
+        .text(City)
+        .property("value", City);
     });
 
     // Use the first sample from the list to build the initial plots
@@ -104,10 +104,10 @@ function init() {
   });
 }
 
-function optionChanged(newSample) {
+function optionChanged(newCategory) {
   // Fetch new data each time a new sample is selected
-  buildCharts(newSample);
-  buildMetadata(newSample);
+  buildCharts(newCategory);
+  buildMetadata(newCategory);
 }
 
 // Initialize the dashboard
