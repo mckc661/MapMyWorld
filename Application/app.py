@@ -18,7 +18,7 @@ app = Flask(__name__)
 # Database Setup
 #################################################
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/places_db3.sqlite"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/places_db4.sqlite"
 db = SQLAlchemy(app)
 
 # reflect an existing database into a new model
@@ -28,10 +28,10 @@ Base.prepare(db.engine, reflect=True)
 
 # Save references to each table
 chinese = Base.classes.chinese
-# Mexican = Base.classes.mexican
-# Gyms = Base.classes.gyms
-# Gas_stations = Base.classes.gas_stations
-# Schools = Base.classes.schools
+mexican = Base.classes.mexican
+gyms = Base.classes.gyms
+gas_stations = Base.classes.gas_stations
+schools = Base.classes.schools
 
 @app.route("/")
 def index():
@@ -52,48 +52,48 @@ def chinese():
 
 # initial chart showing the highest rated city by category
 
-# @app.route("/mexican")
-# def mexican():
+@app.route("/mexican")
+def mexican():
    
 #     # Use Pandas to perform the sql query
-#     stmt = db.session.query(Mexican).statement
-#     df = pd.read_sql_query(stmt, db.session.bind)
+    stmt = db.session.query(Mexican).statement
+    df = pd.read_sql_query(stmt, db.session.bind)
 
 #     # Return a list of the column names (sample names)
-#     return jsonify(list(df.columns)[2:])
+    return jsonify(list(df.columns)[2:])
 
-# @app.route("/gyms")
-# def gyms():
+@app.route("/gyms")
+def gyms():
 
 
 #     # Use Pandas to perform the sql query
-#     stmt = db.session.query(Gyms).statement
-#     df = pd.read_sql_query(stmt, db.session.bind)
+    stmt = db.session.query(Gyms).statement
+    df = pd.read_sql_query(stmt, db.session.bind)
 
-#     # Return a list of the column names (sample names)
+    # Return a list of the column names (sample names)
 #     return jsonify(list(df.columns)[2:])
 
-# @app.route("/gas_stations")
-# def gas_stations():
+@app.route("/gas_stations")
+def gas_stations():
 
 
 #     # Use Pandas to perform the sql query
-#     stmt = db.session.query(Gas_stations).statement
-#     df = pd.read_sql_query(stmt, db.session.bind)
+    stmt = db.session.query(Gas_stations).statement
+    df = pd.read_sql_query(stmt, db.session.bind)
 
-#     # Return a list of the column names (sample names)
-#     return jsonify(list(df.columns)[2:])
+    # Return a list of the column names (sample names)
+    return jsonify(list(df.columns)[2:])
 
-# @app.route("/schools")
-# def schools():
+@app.route("/schools")
+def schools():
 #     """Return a list of sample names."""
 
 #     # Use Pandas to perform the sql query
-#     stmt = db.session.query(Schools).statement
-#     df = pd.read_sql_query(stmt, db.session.bind)
+    stmt = db.session.query(Schools).statement
+    df = pd.read_sql_query(stmt, db.session.bind)
 
 #     # Return a list of the column names (sample names)
-#     return jsonify(list(df.columns)[2:])
+    return jsonify(list(df.columns)[2:])
 
 
 # @app.route("/metadata/<sample>")
