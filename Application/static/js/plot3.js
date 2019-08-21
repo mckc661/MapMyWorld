@@ -1,7 +1,7 @@
 // Where Should I live? Project
 
 
-var placesData = `/chinese/${City}`;
+// var placesData = `/chinese/${City}`;
 //////////////////////////////////////////////////////////////////
 function buildGauge(wfreq) {
     // Enter the washing frequency between 0 and 180

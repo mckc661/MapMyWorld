@@ -28,7 +28,7 @@
 
     // BONUS: Build the Gauge Chart
     // buildGauge(data.WFREQ);
-}
+// }
 
 
 function buildCharts(City) {

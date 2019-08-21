@@ -18,7 +18,7 @@ app = Flask(__name__)
 # Database Setup
 #################################################
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/places_db.sqlite"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/places_db3.sqlite"
 db = SQLAlchemy(app)
 
 # reflect an existing database into a new model
@@ -27,11 +27,11 @@ Base = automap_base()
 Base.prepare(db.engine, reflect=True)
 
 # Save references to each table
-Chinese = Base.classes.chinese
-Mexican = Base.classes.mexican
-Gyms = Base.classes.gyms
-Gas_stations = Base.classes.gas_stations
-Schools = Base.classes.schools
+chinese = Base.classes.chinese
+# Mexican = Base.classes.mexican
+# Gyms = Base.classes.gyms
+# Gas_stations = Base.classes.gas_stations
+# Schools = Base.classes.schools
 
 @app.route("/")
 def index():
@@ -44,7 +44,7 @@ def chinese():
     """Return a list of sample names."""
 
     # Use Pandas to perform the sql query
-    stmt = db.session.query(Chinese).statement
+    stmt = db.session.query(chinese).statement
     df = pd.read_sql_query(stmt, db.session.bind)
 
     # Return a list of the column names (sample names)
@@ -52,48 +52,48 @@ def chinese():
 
 # initial chart showing the highest rated city by category
 
-@app.route("/mexican")
-def mexican():
+# @app.route("/mexican")
+# def mexican():
    
-    # Use Pandas to perform the sql query
-    stmt = db.session.query(Mexican).statement
-    df = pd.read_sql_query(stmt, db.session.bind)
+#     # Use Pandas to perform the sql query
+#     stmt = db.session.query(Mexican).statement
+#     df = pd.read_sql_query(stmt, db.session.bind)
 
-    # Return a list of the column names (sample names)
-    return jsonify(list(df.columns)[2:])
+#     # Return a list of the column names (sample names)
+#     return jsonify(list(df.columns)[2:])
 
-@app.route("/gyms")
-def gyms():
-
-
-    # Use Pandas to perform the sql query
-    stmt = db.session.query(Gyms).statement
-    df = pd.read_sql_query(stmt, db.session.bind)
-
-    # Return a list of the column names (sample names)
-    return jsonify(list(df.columns)[2:])
-
-@app.route("/gas_stations")
-def gas_stations():
+# @app.route("/gyms")
+# def gyms():
 
 
-    # Use Pandas to perform the sql query
-    stmt = db.session.query(Gas_stations).statement
-    df = pd.read_sql_query(stmt, db.session.bind)
+#     # Use Pandas to perform the sql query
+#     stmt = db.session.query(Gyms).statement
+#     df = pd.read_sql_query(stmt, db.session.bind)
 
-    # Return a list of the column names (sample names)
-    return jsonify(list(df.columns)[2:])
+#     # Return a list of the column names (sample names)
+#     return jsonify(list(df.columns)[2:])
 
-@app.route("/schools")
-def schools():
-    """Return a list of sample names."""
+# @app.route("/gas_stations")
+# def gas_stations():
 
-    # Use Pandas to perform the sql query
-    stmt = db.session.query(Schools).statement
-    df = pd.read_sql_query(stmt, db.session.bind)
 
-    # Return a list of the column names (sample names)
-    return jsonify(list(df.columns)[2:])
+#     # Use Pandas to perform the sql query
+#     stmt = db.session.query(Gas_stations).statement
+#     df = pd.read_sql_query(stmt, db.session.bind)
+
+#     # Return a list of the column names (sample names)
+#     return jsonify(list(df.columns)[2:])
+
+# @app.route("/schools")
+# def schools():
+#     """Return a list of sample names."""
+
+#     # Use Pandas to perform the sql query
+#     stmt = db.session.query(Schools).statement
+#     df = pd.read_sql_query(stmt, db.session.bind)
+
+#     # Return a list of the column names (sample names)
+#     return jsonify(list(df.columns)[2:])
 
 
 # @app.route("/metadata/<sample>")
