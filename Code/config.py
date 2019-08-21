@@ -1,2 +1,2 @@
 # API Key
-gkey = 'yourAPI here'
+gkey = 'YOUR API KEY HERE'

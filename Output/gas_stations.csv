@@ -1,96 +1,96 @@
-,City,State,Latitude,Longitude,Place Name,Place Address,Place Rating,Place Latitude,Place Longitude
-0,Belton,Missouri,38.8119527,-94.5318982,Flying J Travel Center,"700 J Hwy, Peculiar",3.9,38.722789,-94.4511014
-1,Belton,Missouri,38.8119527,-94.5318982,Phillips 66,"125 West 135th Street, Kansas City",4.3,38.8826383,-94.59774739999999
-2,Belton,Missouri,38.8119527,-94.5318982,Harmon Food Shop,"101 South Madison Street, Raymore",1.0,38.804337,-94.456655
-3,Belton,Missouri,38.8119527,-94.5318982,Zipz Convenience Stores,"6100 Missouri 150, Grandview",3.3,38.8586882,-94.52391639999999
-4,Belton,Missouri,38.8119527,-94.5318982,Phillips 66,"500 East North Avenue, Belton",3.9,38.814667,-94.52518669999999
-5,Gardner,Kansas,38.8108408,-94.9271868,QuikTrip,"1234 East Santa Fe Street, Olathe",4.2,38.88440209999999,-94.7976243
-6,Gardner,Kansas,38.8108408,-94.9271868,Casey's,"18315 Gardner Road, Gardner",3.0,38.7960387,-94.9270439
-7,Gardner,Kansas,38.8108408,-94.9271868,7-Eleven,"951 South Parker Street, Olathe",3.3,38.8695203,-94.8350787
-8,Gardner,Kansas,38.8108408,-94.9271868,E & J Food Mart,"432 East Main Street, Gardner",4.3,38.8113157,-94.9190962
-9,Gardner,Kansas,38.8108408,-94.9271868,QuikTrip,"694 East Main Street, Gardner",4.2,38.81148659999999,-94.9129894
-10,Gladstone,Missouri,39.2038918,-94.554677,QuikTrip,"7100 Northeast Parvin Road, Kansas City",4.6,39.1695463,-94.49639479999999
-11,Gladstone,Missouri,39.2038918,-94.554677,Flying J Travel Center,"1300 North Corrington Avenue, Kansas City",3.4,39.13068080000001,-94.4968222
-12,Gladstone,Missouri,39.2038918,-94.554677,QuikTrip,"5108 Northeast Vivion Road, Kansas City",4.2,39.1883362,-94.5199305
-13,Gladstone,Missouri,39.2038918,-94.554677,Shell,"5401 Northwest 64th Street, Kansas City",3.0,39.209971,-94.643429
-14,Gladstone,Missouri,39.2038918,-94.554677,BP,"17 E U.S. 69, Kansas City",4.5,39.1952995,-94.5066715
-15,Grandview,Missouri,38.8858407,-94.5330096,QuikTrip,"10232 Wornall Road, Kansas City",4.5,38.9430711,-94.5970919
-16,Grandview,Missouri,38.8858407,-94.5330096,Royal Liquors,"1301 West 103rd Street, Kansas City",4.1,38.94167729999999,-94.6073852
-17,Grandview,Missouri,38.8858407,-94.5330096,QuikTrip,"11902 Riley Street, Overland Park",4.1,38.9125457,-94.67302900000001
-18,Grandview,Missouri,38.8858407,-94.5330096,Phillips 66,"125 West 135th Street, Kansas City",4.3,38.8826383,-94.59774739999999
-19,Grandview,Missouri,38.8858407,-94.5330096,Gomer's Gas & Convenience,"9908 Holmes Road, Kansas City",3.0,38.9480481,-94.582837
-20,Independence,Missouri,39.0911161,-94.41550679999999,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
-21,Independence,Missouri,39.0911161,-94.41550679999999,Spire,"1117 South Pleasant Street, Independence",2.6,39.07981729999999,-94.42144429999999
-22,Independence,Missouri,39.0911161,-94.41550679999999,QuikTrip,"7100 Northeast Parvin Road, Kansas City",4.6,39.1695463,-94.49639479999999
-23,Independence,Missouri,39.0911161,-94.41550679999999,QuikTrip,"1301 Northwest Woods Chapel Road, Blue Springs",4.4,39.0314144,-94.30569349999999
-24,Independence,Missouri,39.0911161,-94.41550679999999,Flying J Travel Center,"1300 North Corrington Avenue, Kansas City",3.4,39.13068080000001,-94.4968222
-25,Kansas City,Kansas,39.11553139999999,-94.62678729999999,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
-26,Kansas City,Kansas,39.11553139999999,-94.62678729999999,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
-27,Kansas City,Kansas,39.11553139999999,-94.62678729999999,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
-28,Kansas City,Kansas,39.11553139999999,-94.62678729999999,QuikTrip,"3101 Southwest Boulevard, Kansas City",4.0,39.07181130000001,-94.6072557
-29,Kansas City,Kansas,39.11553139999999,-94.62678729999999,QuikTrip,"4700 Lamar Avenue, Mission",3.9,39.04296359999999,-94.6564982
-30,Kansas City,Missouri,39.0997265,-94.5785667,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
-31,Kansas City,Missouri,39.0997265,-94.5785667,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
-32,Kansas City,Missouri,39.0997265,-94.5785667,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
-33,Kansas City,Missouri,39.0997265,-94.5785667,QuikTrip,"3101 Southwest Boulevard, Kansas City",4.0,39.07181130000001,-94.6072557
-34,Kansas City,Missouri,39.0997265,-94.5785667,Spire,"1117 South Pleasant Street, Independence",2.6,39.07981729999999,-94.42144429999999
-35,Leawood,Kansas,38.966673,-94.6169012,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
-36,Leawood,Kansas,38.966673,-94.6169012,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
-37,Leawood,Kansas,38.966673,-94.6169012,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
-38,Leawood,Kansas,38.966673,-94.6169012,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
-39,Leawood,Kansas,38.966673,-94.6169012,QuikTrip,"10232 Wornall Road, Kansas City",4.5,38.9430711,-94.5970919
-40,Lee's Summit,Missouri,38.9108408,-94.3821724,Convenience Plus,"351 Southeast 3rd Street, Lee's Summit",2.8,38.91339199999999,-94.37263469999999
-41,Lee's Summit,Missouri,38.9108408,-94.3821724,Presto,"909 Northwest Chipman Road, Lee's Summit",1.5,38.925469,-94.401551
-42,Lee's Summit,Missouri,38.9108408,-94.3821724,BP,"616 Southwest Jefferson Street, Lee's Summit",4.1,38.9050426,-94.3781818
-43,Lee's Summit,Missouri,38.9108408,-94.3821724,BP,"1125 Northeast Douglas Street, Lee's Summit",3.9,38.93241640000001,-94.37851189999999
-44,Lee's Summit,Missouri,38.9108408,-94.3821724,M & Amzar Inc,"8701 Raytown Road, Raytown",5.0,38.9647867,-94.46515099999999
-45,Lenexa,Kansas,38.9536174,-94.73357089999999,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
-46,Lenexa,Kansas,38.9536174,-94.73357089999999,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
-47,Lenexa,Kansas,38.9536174,-94.73357089999999,Phillips 66- Fuel Mart & Discount Tobacco,"12085 South Strang Line Road, Olathe",4.0,38.9097294,-94.77110569999999
-48,Lenexa,Kansas,38.9536174,-94.73357089999999,QuikTrip,"11070 Pflumm Road, Lenexa",4.2,38.92827029999999,-94.7429094
-49,Lenexa,Kansas,38.9536174,-94.73357089999999,Hy-Vee Gas,"17901 West 119th Street, Olathe",3.4,38.9123035,-94.7929538
-50,Liberty,Missouri,39.2461138,-94.4191177,QuikTrip,"7100 Northeast Parvin Road, Kansas City",4.6,39.1695463,-94.49639479999999
-51,Liberty,Missouri,39.2461138,-94.4191177,QuikTrip,"5108 Northeast Vivion Road, Kansas City",4.2,39.1883362,-94.5199305
-52,Liberty,Missouri,39.2461138,-94.4191177,BP,"17 E U.S. 69, Kansas City",4.5,39.1952995,-94.5066715
-53,Liberty,Missouri,39.2461138,-94.4191177,Phillips 66,"900 South Leonard Street, Liberty",3.6,39.23620909999999,-94.4172485
-54,Liberty,Missouri,39.2461138,-94.4191177,Phillips 66,"920 Sutton Place, Liberty",4.0,39.236435,-94.4293426
-55,Merriam,Kansas,39.0236165,-94.6935701,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
-56,Merriam,Kansas,39.0236165,-94.6935701,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
-57,Merriam,Kansas,39.0236165,-94.6935701,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
-58,Merriam,Kansas,39.0236165,-94.6935701,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
-59,Merriam,Kansas,39.0236165,-94.6935701,QuikTrip,"4700 Lamar Avenue, Mission",3.9,39.04296359999999,-94.6564982
-60,Mission,Kansas,39.0277832,-94.6557914,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
-61,Mission,Kansas,39.0277832,-94.6557914,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
-62,Mission,Kansas,39.0277832,-94.6557914,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
-63,Mission,Kansas,39.0277832,-94.6557914,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
-64,Mission,Kansas,39.0277832,-94.6557914,QuikTrip,"10232 Wornall Road, Kansas City",4.5,38.9430711,-94.5970919
-65,North Kansas City,Missouri,39.14290810000001,-94.5729781,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
-66,North Kansas City,Missouri,39.14290810000001,-94.5729781,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
-67,North Kansas City,Missouri,39.14290810000001,-94.5729781,QuikTrip,"3101 Southwest Boulevard, Kansas City",4.0,39.07181130000001,-94.6072557
-68,North Kansas City,Missouri,39.14290810000001,-94.5729781,QuikTrip,"7100 Northeast Parvin Road, Kansas City",4.6,39.1695463,-94.49639479999999
-69,North Kansas City,Missouri,39.14290810000001,-94.5729781,Flying J Travel Center,"1300 North Corrington Avenue, Kansas City",3.4,39.13068080000001,-94.4968222
-70,Olathe,Kansas,38.8813958,-94.81912849999999,Phillips 66- Fuel Mart & Discount Tobacco,"12085 South Strang Line Road, Olathe",4.0,38.9097294,-94.77110569999999
-71,Olathe,Kansas,38.8813958,-94.81912849999999,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
-72,Olathe,Kansas,38.8813958,-94.81912849999999,Hy-Vee Gas,"17901 West 119th Street, Olathe",3.4,38.9123035,-94.7929538
-73,Olathe,Kansas,38.8813958,-94.81912849999999,QuikTrip,"11070 Pflumm Road, Lenexa",4.2,38.92827029999999,-94.7429094
-74,Olathe,Kansas,38.8813958,-94.81912849999999,QuikTrip,"1234 East Santa Fe Street, Olathe",4.2,38.88440209999999,-94.7976243
-75,Overland Park,Kansas,38.9822282,-94.6707917,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
-76,Overland Park,Kansas,38.9822282,-94.6707917,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
-77,Overland Park,Kansas,38.9822282,-94.6707917,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
-78,Overland Park,Kansas,38.9822282,-94.6707917,Phillips 66- Fuel Mart & Discount Tobacco,"12085 South Strang Line Road, Olathe",4.0,38.9097294,-94.77110569999999
-79,Overland Park,Kansas,38.9822282,-94.6707917,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
-80,Prairie Village,Kansas,38.9916726,-94.6335684,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
-81,Prairie Village,Kansas,38.9916726,-94.6335684,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
-82,Prairie Village,Kansas,38.9916726,-94.6335684,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
-83,Prairie Village,Kansas,38.9916726,-94.6335684,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
-84,Prairie Village,Kansas,38.9916726,-94.6335684,QuikTrip,"10232 Wornall Road, Kansas City",4.5,38.9430711,-94.5970919
-85,Raytown,Missouri,39.0086171,-94.46356379999999,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
-86,Raytown,Missouri,39.0086171,-94.46356379999999,Spire,"1117 South Pleasant Street, Independence",2.6,39.07981729999999,-94.42144429999999
-87,Raytown,Missouri,39.0086171,-94.46356379999999,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
-88,Raytown,Missouri,39.0086171,-94.46356379999999,Brookside 66 Services,"6244 Main Street, Kansas City",3.4,39.014195,-94.5886106
-89,Raytown,Missouri,39.0086171,-94.46356379999999,QuikTrip,"10232 Wornall Road, Kansas City",4.5,38.9430711,-94.5970919
-90,Shawnee,Kansas,39.02284849999999,-94.7151865,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
-91,Shawnee,Kansas,39.02284849999999,-94.7151865,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
-92,Shawnee,Kansas,39.02284849999999,-94.7151865,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
-93,Shawnee,Kansas,39.02284849999999,-94.7151865,Phillips 66- Fuel Mart & Discount Tobacco,"12085 South Strang Line Road, Olathe",4.0,38.9097294,-94.77110569999999
-94,Shawnee,Kansas,39.02284849999999,-94.7151865,QuikTrip,"4700 Lamar Avenue, Mission",3.9,39.04296359999999,-94.6564982
+,ID,City,State,Latitude,Longitude,Place Name,Place Address,Place Rating,Place Latitude,Place Longitude
+0,1,Belton,Missouri,38.8119527,-94.5318982,Flying J Travel Center,"700 J Hwy, Peculiar",3.9,38.722789,-94.4511014
+1,2,Belton,Missouri,38.8119527,-94.5318982,Phillips 66,"125 West 135th Street, Kansas City",4.3,38.8826383,-94.59774739999999
+2,3,Belton,Missouri,38.8119527,-94.5318982,Harmon Food Shop,"101 South Madison Street, Raymore",1.0,38.804337,-94.456655
+3,4,Belton,Missouri,38.8119527,-94.5318982,Zipz Convenience Stores,"6100 Missouri 150, Grandview",3.3,38.8586882,-94.52391639999999
+4,5,Belton,Missouri,38.8119527,-94.5318982,Phillips 66,"500 East North Avenue, Belton",3.9,38.814667,-94.52518669999999
+5,6,Gardner,Kansas,38.8108408,-94.9271868,QuikTrip,"1234 East Santa Fe Street, Olathe",4.2,38.88440209999999,-94.7976243
+6,7,Gardner,Kansas,38.8108408,-94.9271868,Casey's,"18315 Gardner Road, Gardner",3.0,38.7960387,-94.9270439
+7,8,Gardner,Kansas,38.8108408,-94.9271868,7-Eleven,"951 South Parker Street, Olathe",3.3,38.8695203,-94.8350787
+8,9,Gardner,Kansas,38.8108408,-94.9271868,E & J Food Mart,"432 East Main Street, Gardner",4.3,38.8113157,-94.9190962
+9,10,Gardner,Kansas,38.8108408,-94.9271868,QuikTrip,"694 East Main Street, Gardner",4.2,38.81148659999999,-94.9129894
+10,11,Gladstone,Missouri,39.2038918,-94.554677,QuikTrip,"7100 Northeast Parvin Road, Kansas City",4.6,39.1695463,-94.49639479999999
+11,12,Gladstone,Missouri,39.2038918,-94.554677,Flying J Travel Center,"1300 North Corrington Avenue, Kansas City",3.4,39.13068080000001,-94.4968222
+12,13,Gladstone,Missouri,39.2038918,-94.554677,QuikTrip,"5108 Northeast Vivion Road, Kansas City",4.2,39.1883362,-94.5199305
+13,14,Gladstone,Missouri,39.2038918,-94.554677,Shell,"5401 Northwest 64th Street, Kansas City",3.0,39.209971,-94.643429
+14,15,Gladstone,Missouri,39.2038918,-94.554677,BP,"17 E U.S. 69, Kansas City",4.5,39.1952995,-94.5066715
+15,16,Grandview,Missouri,38.8858407,-94.5330096,QuikTrip,"10232 Wornall Road, Kansas City",4.5,38.9430711,-94.5970919
+16,17,Grandview,Missouri,38.8858407,-94.5330096,Royal Liquors,"1301 West 103rd Street, Kansas City",4.1,38.94167729999999,-94.6073852
+17,18,Grandview,Missouri,38.8858407,-94.5330096,QuikTrip,"11902 Riley Street, Overland Park",4.1,38.9125457,-94.67302900000001
+18,19,Grandview,Missouri,38.8858407,-94.5330096,Phillips 66,"125 West 135th Street, Kansas City",4.3,38.8826383,-94.59774739999999
+19,20,Grandview,Missouri,38.8858407,-94.5330096,Gomer's Gas & Convenience,"9908 Holmes Road, Kansas City",3.0,38.9480481,-94.582837
+20,21,Independence,Missouri,39.0911161,-94.41550679999999,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
+21,22,Independence,Missouri,39.0911161,-94.41550679999999,Spire,"1117 South Pleasant Street, Independence",2.6,39.07981729999999,-94.42144429999999
+22,23,Independence,Missouri,39.0911161,-94.41550679999999,QuikTrip,"7100 Northeast Parvin Road, Kansas City",4.6,39.1695463,-94.49639479999999
+23,24,Independence,Missouri,39.0911161,-94.41550679999999,QuikTrip,"1301 Northwest Woods Chapel Road, Blue Springs",4.4,39.0314144,-94.30569349999999
+24,25,Independence,Missouri,39.0911161,-94.41550679999999,Flying J Travel Center,"1300 North Corrington Avenue, Kansas City",3.4,39.13068080000001,-94.4968222
+25,26,Kansas City,Kansas,39.11553139999999,-94.62678729999999,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
+26,27,Kansas City,Kansas,39.11553139999999,-94.62678729999999,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
+27,28,Kansas City,Kansas,39.11553139999999,-94.62678729999999,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
+28,29,Kansas City,Kansas,39.11553139999999,-94.62678729999999,QuikTrip,"3101 Southwest Boulevard, Kansas City",4.0,39.07181130000001,-94.6072557
+29,30,Kansas City,Kansas,39.11553139999999,-94.62678729999999,QuikTrip,"4700 Lamar Avenue, Mission",3.9,39.04296359999999,-94.6564982
+30,31,Kansas City,Missouri,39.0997265,-94.5785667,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
+31,32,Kansas City,Missouri,39.0997265,-94.5785667,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
+32,33,Kansas City,Missouri,39.0997265,-94.5785667,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
+33,34,Kansas City,Missouri,39.0997265,-94.5785667,QuikTrip,"3101 Southwest Boulevard, Kansas City",4.0,39.07181130000001,-94.6072557
+34,35,Kansas City,Missouri,39.0997265,-94.5785667,Spire,"1117 South Pleasant Street, Independence",2.6,39.07981729999999,-94.42144429999999
+35,36,Leawood,Kansas,38.966673,-94.6169012,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
+36,37,Leawood,Kansas,38.966673,-94.6169012,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
+37,38,Leawood,Kansas,38.966673,-94.6169012,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
+38,39,Leawood,Kansas,38.966673,-94.6169012,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
+39,40,Leawood,Kansas,38.966673,-94.6169012,QuikTrip,"10232 Wornall Road, Kansas City",4.5,38.9430711,-94.5970919
+40,41,Lee's Summit,Missouri,38.9108408,-94.3821724,Convenience Plus,"351 Southeast 3rd Street, Lee's Summit",2.8,38.91339199999999,-94.37263469999999
+41,42,Lee's Summit,Missouri,38.9108408,-94.3821724,Presto,"909 Northwest Chipman Road, Lee's Summit",1.5,38.925469,-94.401551
+42,43,Lee's Summit,Missouri,38.9108408,-94.3821724,BP,"616 Southwest Jefferson Street, Lee's Summit",4.1,38.9050426,-94.3781818
+43,44,Lee's Summit,Missouri,38.9108408,-94.3821724,BP,"1125 Northeast Douglas Street, Lee's Summit",3.9,38.93241640000001,-94.37851189999999
+44,45,Lee's Summit,Missouri,38.9108408,-94.3821724,M & Amzar Inc,"8701 Raytown Road, Raytown",5.0,38.9647867,-94.46515099999999
+45,46,Lenexa,Kansas,38.9536174,-94.73357089999999,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
+46,47,Lenexa,Kansas,38.9536174,-94.73357089999999,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
+47,48,Lenexa,Kansas,38.9536174,-94.73357089999999,Phillips 66- Fuel Mart & Discount Tobacco,"12085 South Strang Line Road, Olathe",4.0,38.9097294,-94.77110569999999
+48,49,Lenexa,Kansas,38.9536174,-94.73357089999999,QuikTrip,"11070 Pflumm Road, Lenexa",4.2,38.92827029999999,-94.7429094
+49,50,Lenexa,Kansas,38.9536174,-94.73357089999999,Hy-Vee Gas,"17901 West 119th Street, Olathe",3.4,38.9123035,-94.7929538
+50,51,Liberty,Missouri,39.2461138,-94.4191177,QuikTrip,"7100 Northeast Parvin Road, Kansas City",4.6,39.1695463,-94.49639479999999
+51,52,Liberty,Missouri,39.2461138,-94.4191177,QuikTrip,"5108 Northeast Vivion Road, Kansas City",4.2,39.1883362,-94.5199305
+52,53,Liberty,Missouri,39.2461138,-94.4191177,BP,"17 E U.S. 69, Kansas City",4.5,39.1952995,-94.5066715
+53,54,Liberty,Missouri,39.2461138,-94.4191177,Phillips 66,"900 South Leonard Street, Liberty",3.6,39.23620909999999,-94.4172485
+54,55,Liberty,Missouri,39.2461138,-94.4191177,Phillips 66,"920 Sutton Place, Liberty",4.1,39.236435,-94.4293426
+55,56,Merriam,Kansas,39.0236165,-94.6935701,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
+56,57,Merriam,Kansas,39.0236165,-94.6935701,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
+57,58,Merriam,Kansas,39.0236165,-94.6935701,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
+58,59,Merriam,Kansas,39.0236165,-94.6935701,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
+59,60,Merriam,Kansas,39.0236165,-94.6935701,QuikTrip,"4700 Lamar Avenue, Mission",3.9,39.04296359999999,-94.6564982
+60,61,Mission,Kansas,39.0277832,-94.6557914,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
+61,62,Mission,Kansas,39.0277832,-94.6557914,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
+62,63,Mission,Kansas,39.0277832,-94.6557914,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
+63,64,Mission,Kansas,39.0277832,-94.6557914,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
+64,65,Mission,Kansas,39.0277832,-94.6557914,QuikTrip,"10232 Wornall Road, Kansas City",4.5,38.9430711,-94.5970919
+65,66,North Kansas City,Missouri,39.14290810000001,-94.5729781,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
+66,67,North Kansas City,Missouri,39.14290810000001,-94.5729781,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
+67,68,North Kansas City,Missouri,39.14290810000001,-94.5729781,QuikTrip,"3101 Southwest Boulevard, Kansas City",4.0,39.07181130000001,-94.6072557
+68,69,North Kansas City,Missouri,39.14290810000001,-94.5729781,QuikTrip,"7100 Northeast Parvin Road, Kansas City",4.6,39.1695463,-94.49639479999999
+69,70,North Kansas City,Missouri,39.14290810000001,-94.5729781,Flying J Travel Center,"1300 North Corrington Avenue, Kansas City",3.4,39.13068080000001,-94.4968222
+70,71,Olathe,Kansas,38.8813958,-94.81912849999999,Phillips 66- Fuel Mart & Discount Tobacco,"12085 South Strang Line Road, Olathe",4.0,38.9097294,-94.77110569999999
+71,72,Olathe,Kansas,38.8813958,-94.81912849999999,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
+72,73,Olathe,Kansas,38.8813958,-94.81912849999999,Hy-Vee Gas,"17901 West 119th Street, Olathe",3.4,38.9123035,-94.7929538
+73,74,Olathe,Kansas,38.8813958,-94.81912849999999,QuikTrip,"11070 Pflumm Road, Lenexa",4.2,38.92827029999999,-94.7429094
+74,75,Olathe,Kansas,38.8813958,-94.81912849999999,QuikTrip,"1234 East Santa Fe Street, Olathe",4.2,38.88440209999999,-94.7976243
+75,76,Overland Park,Kansas,38.9822282,-94.6707917,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
+76,77,Overland Park,Kansas,38.9822282,-94.6707917,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
+77,78,Overland Park,Kansas,38.9822282,-94.6707917,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
+78,79,Overland Park,Kansas,38.9822282,-94.6707917,Phillips 66- Fuel Mart & Discount Tobacco,"12085 South Strang Line Road, Olathe",4.0,38.9097294,-94.77110569999999
+79,80,Overland Park,Kansas,38.9822282,-94.6707917,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
+80,81,Prairie Village,Kansas,38.9916726,-94.6335684,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
+81,82,Prairie Village,Kansas,38.9916726,-94.6335684,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
+82,83,Prairie Village,Kansas,38.9916726,-94.6335684,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
+83,84,Prairie Village,Kansas,38.9916726,-94.6335684,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
+84,85,Prairie Village,Kansas,38.9916726,-94.6335684,QuikTrip,"10232 Wornall Road, Kansas City",4.5,38.9430711,-94.5970919
+85,86,Raytown,Missouri,39.0086171,-94.46356379999999,BP,"3319 Linwood Boulevard, Kansas City",3.3,39.0674526,-94.54413369999999
+86,87,Raytown,Missouri,39.0086171,-94.46356379999999,Spire,"1117 South Pleasant Street, Independence",2.6,39.07981729999999,-94.42144429999999
+87,88,Raytown,Missouri,39.0086171,-94.46356379999999,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
+88,89,Raytown,Missouri,39.0086171,-94.46356379999999,Brookside 66 Services,"6244 Main Street, Kansas City",3.5,39.014195,-94.5886106
+89,90,Raytown,Missouri,39.0086171,-94.46356379999999,QuikTrip,"10232 Wornall Road, Kansas City",4.5,38.9430711,-94.5970919
+90,91,Shawnee,Kansas,39.02284849999999,-94.7151865,BP,"10700 West 87th Street, Lenexa",3.7,38.9713261,-94.7100763
+91,92,Shawnee,Kansas,39.02284849999999,-94.7151865,BP,"5500 Johnson Drive, Mission",4.0,39.022451,-94.64945569999999
+92,93,Shawnee,Kansas,39.02284849999999,-94.7151865,QuikTrip,"4327 Main Street, Kansas City",3.7,39.0482708,-94.5861958
+93,94,Shawnee,Kansas,39.02284849999999,-94.7151865,Phillips 66- Fuel Mart & Discount Tobacco,"12085 South Strang Line Road, Olathe",4.0,38.9097294,-94.77110569999999
+94,95,Shawnee,Kansas,39.02284849999999,-94.7151865,QuikTrip,"4700 Lamar Avenue, Mission",3.9,39.04296359999999,-94.6564982
