@@ -16,6 +16,9 @@
       <div class="col-md-12 jumbotron text-center">
         <h1>Where Should I Live</h1>
         <p>Based on different criteria, we will show you the best place to live!</p>
+
+
+
       </div>
     </div>
     <div class="row">
@@ -23,10 +26,19 @@
         <div class="well">
           <h5>SELECT Category:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <div id="bar"></div>
+          <select id="selDataset" onchange="getData(this.value)">
+              <option value="chinese">Chinese</option>
+              <option value="mexican">Mexican</option>
+              <option value="gyms">Gyms</option>
+              <option value="gas_stations">Gas Stations</option>
+              <option value="schools">Schools</option>
+            </select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
             <h3 class="panel-title">Chosen City</h3>
+
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>
@@ -48,12 +60,12 @@
   <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="{{ url_for('static', filename='js/plot3.js') }}"></script>
+  <!-- <script src="{{ url_for('static', filename='js/plot3.js') }}"></script> -->
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 
     <!-- The div that holds our map -->
-    <div id="map-id" style="height: 400px;width:300px";></div>
-
+    <div id="map-id";></div>
+  
     <!-- D3 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
   
@@ -63,7 +75,7 @@
     <!-- API Key -->
     <script type="text/javascript" src="static/js/config.js"></script>
     <!-- Our JavaScript -->
-    <script type="text/javascript" src="static/js/logic.js"></script>
+    <!-- <script type="text/javascript" src="static/js/logic.js"></script> -->
 
   <div id="map" style="height: 400px;width:300px";></div>
 
@@ -72,10 +84,10 @@
 
   <!-- JS -->
   <!-- <script type="text/javascript" src="static/js/just-crime.js"></script> -->
-  <script type="text/javascript" src="static/js/heatmap.js"></script>
+  <!-- <script type="text/javascript" src="static/js/heatmap.js"></script> -->
 
   <!-- Leaflet heatmap plugin-->
-  <script type="text/javascript" src="static/js/leaflet-heat.js"></script>
+  <!-- <script type="text/javascript" src="static/js/leaflet-heat.js"></script> -->
 
 
 </body>

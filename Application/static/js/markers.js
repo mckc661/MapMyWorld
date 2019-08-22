@@ -34,7 +34,7 @@ function createMap(places) {
   function createMarkers(response) {
   
     // Pull the "stations" property off of response.data
-    var places = response.data.Place_Name;
+    var places = response.Place_Name;
   
     // Initialize an array to hold bike markers
     var placeMarkers = [];
@@ -44,8 +44,8 @@ function createMap(places) {
       var place = places[index];
   
       // For each station, create a marker and bind a popup with the station's name
-      var placeMarker = L.marker([data.lat, data.lon])
-        .bindPopup("<h3>" + data.name + "<h3><h3>Address: " + data.address + "<h3>");
+      var placeMarker = L.marker([data.`Place Latitude`, data.`Place Longitude`])
+        .bindPopup("<h3>" + data.`Place Name` + "<h3><h3>Address: " + data.Address + "<h3>");
   
       // Add the marker to the bikeMarkers array
       placeMarkers.push(placeMarker);
@@ -56,6 +56,6 @@ function createMap(places) {
   }
   
   
-  // Perform an API call to the Citi Bike API to get station information. Call createMarkers when complete
+  // API Call and Create Markers
   d3.json("/chinese", createMarkers);
   

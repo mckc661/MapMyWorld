@@ -1,114 +1,68 @@
-// function buildMetadata(sample) {
+var responselat = d3.json("/chinese/lat");
+var responselon = d3.json("/chinese/lon");
 
-  // @TODO: Complete the following function that builds the metadata panel
-
-  // Use `d3.json` to fetch the metadata for a sample
-
-//     var MetaData = `/metadata/${sample}`;
-//     d3.json(MetaData).then(function(response) {
-// // Use d3 to select the panel with id of `#sample-metadata`
-//       var panelData = d3.select("#sample-metadata");
-
-//     // Use `.html("") to clear any existing metadata
-//       panelData.html("");
-
-//       var data = Object.entries(response);
-//       data.forEach(function(item) {
-//         panelData.append("div").text(item);
-//       });
+console.log(responselat)
+console.log(responselon)
 
 
-//     })
- 
 
 
-    // Use `Object.entries` to add each key and value pair to the panel
-    // Hint: Inside the loop, you will need to use d3 to append new
-    // tags for each key-value in the metadata.
 
-    // BONUS: Build the Gauge Chart
-    // buildGauge(data.WFREQ);
-// }
+function createMap(places) {
 
+  // Create the tile layer that will be the background of our map
+  var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}", {
+    attribution: "Map data &copy; <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"http://mapbox.com\">Mapbox</a>",
+    maxZoom: 18,
+    id: "mapbox.light",
+    accessToken: API_KEY
+  });
 
-function buildCharts(City) {
-
-var placesData = `/chinese/${City}`;
-console.log(placesData);
-d3.json(`/samples/${City}`).then(function(response) {
-  console.log(response.otu_ids.otu_ids);
-  var topOtuIDs = response.otu_ids.slice(0,10);
-  var topOtuLabels = response.otu_labels.slice(0,10);
-  var topSampleValues = response.sample_values.slice(0,10);
-  
-  var data = [{
-    "labels": topOtuIDs,
-    "values": topSampleValues,
-    "mouseover": topOtuLabels,
-    "type": "pie"
-  }]
- 
-
-  Plotly.plot("pie", data);
-});
-
-
-// bubble chart
-
-
-d3.json(sampleData).then(function(response) {
-  var OtuIDs = response.otu_ids;
-  var OtuLabels = response.otu_labels;
-  var SampleValues = response.sample_values;
-  
-  var BubbleData = {
-    mode: 'markers',
-    x: OtuIDs,
-    y: SampleValues,
-    text: OtuLabels,
-    marker: {color: OtuIDs, colorscale: 'Rainbow', size: SampleValues}
-
+  // Create a baseMaps object to hold the lightmap layer
+  var baseMaps = {
+    "Light Map": lightmap
   };
- 
-var bdata = [BubbleData];
 
-var layout = {
-  showlegend: false,
-  height:600,
-  width: 1200
+  // Create an overlayMaps object to hold the bikeStations layer
+  var overlayMaps = {
+    "places": Places
+  };
+
+  // Create the map object with options
+  var map = L.map("map-id", {
+    center: [39.096977, -94.578681],
+    zoom: 12,
+    layers: [lightmap, places]
+  });
+
+  // Create a layer control, pass in the baseMaps and overlayMaps. Add the layer control to the map
+  L.control.layers(baseMaps, overlayMaps, {
+    collapsed: false
+  }).addTo(map);
+}
+
+function createMarkers(response) {
+
+  // Pull the "stations" property off of response.data
+  // var places = response.Place_Name;
+  // // Initialize an array to hold bike markers
+  // var placeMarkers = [];
+  // Object.entries(response).forEach(([key, value]) => 
+  //   console.log(`Key: ${key} and Value ${value}`)
+  
+  // Loop through the stations array
+  for (var index = 0; index < responselat.length; index++) {
+
+    // For each station, create a marker and bind a popup with the station's name
+    var placeMarker = L.marker(responselat, responselon)
+      .bindPopup("<h3>" + responselat + responselon + "<h3>");
+
+    // Add the marker to the bikeMarkers array
+    placeMarkers.push(placeMarker);
+  }
+
+
+  // // Create a layer group made from the bike markers array, pass it into the createMap function
+createMap(L.layerGroup(placeMarkers));
 };
 
-  Plotly.plot('bubble',bdata,layout);
-})
-}
-
-
-
-function init() {
-  // Grab a reference to the dropdown select element
-  var selector = d3.select("#selDataset");
-
-  // Use the list of sample names to populate the select options
-  d3.json("/chinese").then((highestRating) => {
-    highestRating.forEach((City) => {
-      selector
-        .append("option")
-        .text(City)
-        .property("value", City);
-    });
-
-    // Use the first sample from the list to build the initial plots
-    const firstSample = sampleNames[0];
-    buildCharts(firstSample);
-    buildMetadata(firstSample);
-  });
-}
-
-function optionChanged(newCategory) {
-  // Fetch new data each time a new sample is selected
-  buildCharts(newCategory);
-  buildMetadata(newCategory);
-}
-
-// Initialize the dashboard
-init();
