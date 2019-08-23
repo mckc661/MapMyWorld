@@ -1,4 +1,4 @@
-,ID,City,State,Latitude,Longitude,Place Name,Place Address,Place Rating,Place Latitude,Place Longitude
+,ID,City,State,Latitude,Longitude,PlaceName,PlaceAddress,PlaceRating,PlaceLatitude,PlaceLongitude
 0,1,Belton,Missouri,38.8119527,-94.5318982,Life Time Fitness,"16851 West 90th Street, Lenexa",3.9,38.9641885,-94.7812141
 1,2,Belton,Missouri,38.8119527,-94.5318982,24 Hour Fitness,"12075 Metcalf Avenue, Overland Park",3.3,38.9097999,-94.6662766
 2,3,Belton,Missouri,38.8119527,-94.5318982,New Century Fieldhouse,"551 New Century Parkway, New Century",4.5,38.8190627,-94.9027819
