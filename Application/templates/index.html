@@ -16,7 +16,14 @@
       <div class="col-md-12 jumbotron text-center">
         <h1>Where Should I Live</h1>
         <p>Based on different criteria, we will show you the best place to live!</p>
-
+        <p> 
+          
+          {% for count in counts %}
+          <p>{{count["Place Name"]}}</p> 
+          {% endfor %}
+ 
+ 
+         </p>
 
 
       </div>
