@@ -1,4 +1,4 @@
-,ID,City,State,Latitude,Longitude,Place Name,Place Address,Place Rating,Place Latitude,Place Longitude
+,ID,City,State,Latitude,Longitude,PlaceName,PlaceAddress,PlaceRating,PlaceLatitude,PlaceLongitude
 0,1,Belton,Missouri,38.8119527,-94.5318982,Flying J Travel Center,"700 J Hwy, Peculiar",3.9,38.722789,-94.4511014
 1,2,Belton,Missouri,38.8119527,-94.5318982,Phillips 66,"125 West 135th Street, Kansas City",4.3,38.8826383,-94.59774739999999
 2,3,Belton,Missouri,38.8119527,-94.5318982,Harmon Food Shop,"101 South Madison Street, Raymore",1.0,38.804337,-94.456655

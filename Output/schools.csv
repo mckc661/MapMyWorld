@@ -1,4 +1,4 @@
-,ID,City,State,Latitude,Longitude,Place Name,Place Address,Place Rating,Place Latitude,Place Longitude
+,ID,City,State,Latitude,Longitude,PlaceName,PlaceAddress,PlaceRating,PlaceLatitude,PlaceLongitude
 0,1,Belton,Missouri,38.8119527,-94.5318982,Avila University,"11901 Wornall Road, Kansas City",4.1,38.91236430000001,-94.59146989999999
 1,2,Belton,Missouri,38.8119527,-94.5318982,Raymore-Peculiar High School,"20801 South School Road, Peculiar",3.4,38.7453053,-94.4578006
 2,3,Belton,Missouri,38.8119527,-94.5318982,Grandview High School,"2300 High Grove Road, Grandview",3.9,38.8877195,-94.51394289999999
