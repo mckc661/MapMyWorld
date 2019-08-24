@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>WhereShouldILive?</title>
+  <title>WhatBusinessesAreNearBy?</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 
 <body>
@@ -14,15 +16,31 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
+<<<<<<< Updated upstream
         <h1>Where Should I Live</h1>
         <p>Based on different criteria, we will show you the best place to live!</p>
+=======
+        <h1>Local Businesses</h1>
+        <p>Pick your city, we'll show you some nearby businesses!</p>
+>>>>>>> Stashed changes
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
         <div class="well">
           <h5>SELECT Category:</h5>
+<<<<<<< Updated upstream
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
+=======
+          <select id="selDataset" onchange="getData(this.value)">
+              <option value="chinese">Chinese</option>
+              <option value="mexican">Mexican</option>
+              <option value="gyms">Gyms</option>
+              <option value="gas_stations">Gas Stations</option>
+              <option value="schools">Schools</option>
+            </select>
+            <script src="{{ url_for('static', filename='js/app2.js') }}"></script>
+>>>>>>> Stashed changes
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
@@ -32,7 +50,7 @@
         </div>
       </div>
       <div class="col-md-5">
-        <div id="pie"></div>
+        <div id="bar"></div>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
@@ -46,6 +64,7 @@
   </div>
 
   <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script> -->
+<<<<<<< Updated upstream
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="{{ url_for('static', filename='js/plot3.js') }}"></script>
@@ -54,21 +73,35 @@
     <!-- The div that holds our map -->
     <div id="map-id"></div>
 
+=======
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script> -->
+  <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+  <!-- <script src="{{ url_for('static', filename='js/plot3.js') }}"></script> -->
+  <!-- <script src="{{ url_for('static', filename='js/app2.js') }}"></script> -->
+
+    <!-- The div that holds our map -->
+    <!-- <div id="map-id";></div> -->
+  
+>>>>>>> Stashed changes
     <!-- D3 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script> -->
   
     <!-- Leaflet JavaScript -->
-    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <!-- <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script> -->
   
     <!-- API Key -->
-    <script type="text/javascript" src="static/js/config.js"></script>
+    <!-- <script type="text/javascript" src="static/js/config.js"></script> -->
     <!-- Our JavaScript -->
     <script type="text/javascript" src="static/js/logic.js"></script>
 
+<<<<<<< Updated upstream
   <div id="map"></div>
+=======
+  <!-- <div id="map" style="height: 400px;width:300px";></div> -->
+>>>>>>> Stashed changes
 
   <!-- API key -->
-  <script type="text/javascript" src="static/js/config.js"></script>
+  <!-- <script type="text/javascript" src="static/js/config.js"></script> -->
 
   <!-- JS -->
   <!-- <script type="text/javascript" src="static/js/just-crime.js"></script> -->
