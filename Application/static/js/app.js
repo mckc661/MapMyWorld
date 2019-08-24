@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 var responselat = d3.json("/chinese/lat");
 var responselon = d3.json("/chinese/lon");
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+// function buildMetadata(sample) {
+>>>>>>> kenny
 
 console.log(responselat)
 console.log(responselon)
@@ -66,3 +72,49 @@ function createMarkers(response) {
 createMap(L.layerGroup(placeMarkers));
 };
 
+<<<<<<< HEAD
+=======
+// Initialize the dashboard
+init();
+=======
+var defaultURL = "/chinese";
+d3.json(defaultURL).then(function(data) {
+    var data = [data];
+    var layout = { margin: { t: 30, b: 100 } };
+    Plotly.plot("bar", data, layout);
+});
+
+// Update the plot with new data
+function updatePlotly(newdata) {
+    Plotly.restyle("bar", "x", [newdata.x]);
+    Plotly.restyle("bar", "y", [newdata.y]);
+}
+
+=======
+var defaultURL = "/chinese";
+d3.json(defaultURL).then(function(data) {
+    var data = [data];
+    var layout = { margin: { t: 30, b: 100 } };
+    Plotly.plot("bar", data, layout);
+});
+
+// Update the plot with new data
+function updatePlotly(newdata) {
+    Plotly.restyle("bar", "x", [newdata.x]);
+    Plotly.restyle("bar", "y", [newdata.y]);
+}
+
+>>>>>>> Stashed changes
+function getData(route) {
+    console.log(route);
+    d3.json(`/${route}`).then(function(data){
+      console.log("newdata", data);
+      updatePlotly(data);
+    });
+<<<<<<< Updated upstream
+}
+>>>>>>> Stashed changes
+=======
+}
+>>>>>>> Stashed changes
+>>>>>>> kenny
